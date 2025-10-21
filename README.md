@@ -1,9 +1,9 @@
 
-# 🏥 Medical Insurance Price Prediction using Machine Learning
+#  Medical Insurance Price Prediction using Machine Learning
 -![Dashboard View](https://github.com/Shaadink/Medical-insurance-prediction-PYTHON-/blob/main/MEDICAL%20INSURANCE%20IMAGE.jpg)
 
 
-## 📘 Project Overview
+##  Project Overview
 This project aims to **analyze and predict medical insurance premiums** based on various personal and demographic factors using **Machine Learning techniques in Python**.  
 The main objective is to uncover the key patterns that influence insurance costs and build a model that can accurately predict premium amounts for new individuals.
 
@@ -11,7 +11,7 @@ This project demonstrates the complete end-to-end **Data Science workflow** — 
 
 ---
 
-## 🎯 Objective
+##  Objective
 The primary objectives of this project are:
 - To understand how different features such as age, BMI, gender, region, smoking habits, and number of dependents affect medical insurance premiums.  
 - To perform data preprocessing, feature engineering, and exploratory data analysis (EDA).  
@@ -20,7 +20,7 @@ The primary objectives of this project are:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 The dataset contains information about individuals along with their respective insurance charges.  
 Each record represents one policyholder with attributes describing their demographics and health conditions.
 
@@ -37,7 +37,7 @@ Each record represents one policyholder with attributes describing their demogra
 
 ---
 
-## ⚙️ Data Preprocessing
+##  Data Preprocessing
 To prepare the dataset for modeling, several preprocessing steps were applied:
 1. **Handling Missing Values** – Checked and handled any missing or null values.  
 2. **Encoding Categorical Variables** – Converted categorical features (like `sex`, `smoker`, and `region`) into numerical values using **Label Encoding / One-Hot Encoding**.  
@@ -46,7 +46,7 @@ To prepare the dataset for modeling, several preprocessing steps were applied:
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 Exploratory analysis was performed to understand data distribution and relationships between variables.  
 
 ### **Key Observations**
@@ -63,7 +63,7 @@ Exploratory analysis was performed to understand data distribution and relations
 
 ---
 
-## 🧩 Feature Engineering
+##  Feature Engineering
 Feature engineering steps included:
 - Creating dummy variables for categorical columns (`sex`, `region`, `smoker`).  
 - Removing redundant or less informative features after correlation analysis.  
@@ -73,7 +73,7 @@ These steps improved the model interpretability and accuracy.
 
 ---
 
-## 🤖 Model Building
+##  Model Building
 Multiple regression models were trained and evaluated:
 
 1. **Linear Regression**  
@@ -89,7 +89,7 @@ Each model was assessed based on:
 
 ---
 
-## 🏆 Model Performance & Outputs
+##  Model Performance & Outputs
 | Model | R² Score | MAE | MSE |
 |--------|-----------|------|------|
 | Linear Regression | 0.75 | Moderate | High |
@@ -98,12 +98,12 @@ Each model was assessed based on:
 | Gradient Boosting | 0.91 | Low | Lower |
 | **XGBoost** | **0.94** | **Lowest** | **Lowest** |
 
-✅ **XGBoost Regressor achieved the highest accuracy**, indicating that its predictions were closest to real premium values.  
+ **XGBoost Regressor achieved the highest accuracy**, indicating that its predictions were closest to real premium values.  
 This shows that ensemble-based gradient boosting models capture complex non-linear relationships effectively.
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 - **Smoking** is the most dominant factor influencing premium cost.  
 - **Age** and **BMI** are strong predictors of medical expenses.  
 - The **number of children** has minimal effect on premium variation.  
@@ -112,7 +112,7 @@ This shows that ensemble-based gradient boosting models capture complex non-line
 
 ---
 
-## 💡 Conclusion
+## Conclusion
 Out of all the tested models, **XGBoost** delivered the most accurate predictions, proving to be the best choice for this dataset.  
 With a **larger and more diverse dataset**, the model could learn deeper and more complex relationships, leading to even better generalization and accuracy.
 
@@ -120,13 +120,13 @@ This project showcases how **data-driven insights** can support insurance compan
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Programming Language:** Python  
 - **Libraries Used:** pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost  
 
 ---
 
-## 🚀 Future Scope
+## Future Scope
 - Integrating more real-world features (medical history, lifestyle habits, etc.).  
 - Building a web application for real-time premium prediction.  
 - Deploying the model using Flask or Streamlit for end-user interaction.
