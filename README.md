@@ -1,6 +1,6 @@
 
 # 🏥 Medical Insurance Price Prediction using Machine Learning
--![Dashboard View](
+-![Dashboard View](https://github.com/Shaadink/Medical-insurance-prediction-PYTHON-/blob/main/MEDICAL%20INSURANCE%20IMAGE.jpg)
 
 
 ## 📘 Project Overview
