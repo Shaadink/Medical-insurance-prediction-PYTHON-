@@ -1,6 +1,6 @@
 
 # 🏥 Medical Insurance Price Prediction using Machine Learning
-
+-![Dashboard View](
 
 
 ## 📘 Project Overview
